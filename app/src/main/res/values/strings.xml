@@ -4,5 +4,30 @@
     <string name="Phone">Phone</string>
     <string name="Book">Book</string>
     <string name="Menu">Menu</string>
+    <string name="StartAt">Start At</string>
+    <string name="SelectTime">Select Time</string>
+    <string name="workTime">Working from 8:00 to 16:00, Sunday till Tuesday</string>
+    <string name="rating">Rating</string>
+    <string name="Writecomment">Write your comment</string>
+    <string name="send">send</string>
+    <string name="comment">Comment</string>
+    <string name="about">About</string>
+    <string name="openingHours">Our Opening Hours:</string>
+    <string name="scrollview">ScrollView</string>
+    <string name="Pop_up">Comment was sent successfully</string>
+    <string name="review">review</string>
+    <string name="emailme">Email me</string>
+    <string name="Website">Website</string>
+    <string name="callme">Call me</string>
+    <string name="PriceMenu">Price Menu</string>
+    <string name="childhaircut">Child HairCut</string>
+    <string name="childprice">Cost : 40 shekel</string>
+    <string name="manhaircut">Man HairCut</string>
+    <string name="manprice">Cost : 60 shekel</string>
+    <string name="womanhaircut">Woman HairCut</string>
+    <string name="womanprice">Cost : 80 shekel</string>
+    <string name="cart">Cart</string>
+    <string name="HairCutAddedToCart">HairCut Add To Cart</string>
+    <string name="logout">Logout</string>
 
 </resources>
