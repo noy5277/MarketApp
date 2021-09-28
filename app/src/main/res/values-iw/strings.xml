@@ -1,4 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <string name="app_name">Barber-Shop</string>
+    <string name="nav_btn">ניווט</string>
+    <string name="Phone">טלפון</string>
+    <string name="Book">הזמן</string>
+    <string name="Menu">תפריט</string>
+    <string name="StartAt">מתחיל ב</string>
+    <string name="SelectTime">בחר זמן</string>
+    <string name="workTime">פתוחים משעה 8:00 עד 16:00, ראשון עד חמישי</string>
+    <string name="rating">דירוג</string>
+    <string name="Writecomment">תגובתך</string>
+    <string name="send">שלח</string>
+    <string name="comment">תגובה</string>
+    <string name="about">אודות</string>
+    <string name="openingHours">שעות הפתיחה שלנו:</string>
+    <string name="scrollview">ScrollView</string>
+    <string name="Pop_up">תגובתך נשלחה בהצלחה</string>
+    <string name="review">תגובות</string>
+    <string name="emailme">שלח מייל</string>
+    <string name="Website">Website</string>
+    <string name="callme">תתקשר</string>
+    <string name="PriceMenu">מחירון</string>
+    <string name="childhaircut">תספורת ילד</string>
+    <string name="childprice">מחיר: 40 שח</string>
+    <string name="manhaircut">תספורת גבר</string>
+    <string name="manprice">מחיר: 60 שח</string>
+    <string name="womanhaircut">תספורת אישה</string>
+    <string name="womanprice">מחיר: 80 שח</string>
+    <string name="cart">עגלה</string>
+    <string name="HairCutAddedToCart">נשלח לעגלה</string>
+    <string name="logout">התנתק</string>
+    <string name="sum">סכום:</string>
 </resources>

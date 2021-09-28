@@ -29,5 +29,6 @@
     <string name="cart">Cart</string>
     <string name="HairCutAddedToCart">HairCut Add To Cart</string>
     <string name="logout">Logout</string>
+    <string name="sum">Sum:</string>
 
 </resources>

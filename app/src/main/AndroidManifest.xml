@@ -11,7 +11,9 @@
         android:theme="@style/Theme.MarketApp">
         <activity
             android:name=".Cart"
-            android:exported="true" />
+            android:exported="true"
+            android:label="@string/cart"
+            android:parentActivityName=".PriceMenu"/>
         <activity
             android:name=".PriceMenu"
             android:exported="true"
