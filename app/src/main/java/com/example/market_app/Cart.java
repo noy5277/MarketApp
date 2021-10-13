@@ -10,19 +10,24 @@ import android.service.autofill.OnClickAction;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Cart extends AppCompatActivity  {
 
     private LinearLayout layout;
-    private ArrayList<String> buttonName;
+    private ListView listView;
+    private ArrayList<String> haircuts;
     private ArrayList<Integer> costs;
+    private ArrayList<Integer> pictures;
     private Button button;
     private TextView calcSum;
     int i=0;
     private int sum=0;
+    public static final String INPUT_PICTURE="PriceMenu.INPUT_PICTURE";
     public static final String INPUT_HAIRCUT="PriceMenu.INPUT_HAIRCUT";
     public static final String INPUT_COST="PriceMenu.INPUT_COST";
     @SuppressLint("ResourceAsColor")
@@ -30,30 +35,26 @@ public class Cart extends AppCompatActivity  {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cart);
+        listView=findViewById(R.id.list);
         layout=findViewById(R.id.mainLayout);
         calcSum=findViewById(R.id.calcSum_Txt);
         Bundle extras=getIntent().getExtras();
-        buttonName=new ArrayList<String>();
+        haircuts=new ArrayList<String>();
         costs=new ArrayList<Integer>();
+        pictures=new ArrayList<Integer>();
         if(extras!=null)
         {
-            buttonName=extras.getStringArrayList(INPUT_HAIRCUT);
+            pictures=extras.getIntegerArrayList(INPUT_PICTURE);
+            haircuts=extras.getStringArrayList(INPUT_HAIRCUT);
             costs=extras.getIntegerArrayList(INPUT_COST);
         }
         for(Integer cost:costs)
         {
             sum=sum+cost;
         }
-        for(String hairCut:buttonName)
-        {
-            Button button=new Button(this);
-            button.setId(i+1);
-            button.setText(hairCut);
-            button.setTag(i);
-            button.setBackgroundColor(R.color.dark_red);
-            layout.addView(button);
-        }
         calcSum.setText(Integer.toString(sum));
+        ItemAdapter itemAdapter=new ItemAdapter(this,haircuts,costs,pictures);
+        listView.setAdapter(itemAdapter);
     }
 
 }
