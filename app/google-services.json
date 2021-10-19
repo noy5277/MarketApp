@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "12868629825",
+    "project_id": "barbershop-1cc7b",
+    "storage_bucket": "barbershop-1cc7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12868629825:android:d3435eb719708a720cddc0",
+        "android_client_info": {
+          "package_name": "com.example.market_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "12868629825-vfln668vorep81rm8g4fn3lbvu628965.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1mEBOH2KVdutknJYWrL2m0IUwVcB5R20"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "12868629825-vfln668vorep81rm8g4fn3lbvu628965.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
